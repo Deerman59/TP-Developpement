@@ -51,7 +51,7 @@ Pour jouer à **Rioma**, vous devez avoir installé :
 
 1. Clonez ce dépôt ou téléchargez-le en tant qu'archive ZIP :
    ```bash
-   git clone https://github.com/Deerman59/TP-Developpement/VERSION FINALE
+   git clone [https://github.com/Deerman59/TP-Developpement/VERSION FINALE](https://github.com/Deerman59/TP-Developpement/tree/main/VERSION%20FINALE)
 
 3. Installez les dépendances nécessaires :
 ```pip install pygame```
