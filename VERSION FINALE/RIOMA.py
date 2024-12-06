@@ -20,6 +20,8 @@ Para_Koopa_imgGH = pygame.image.load('Images/para-koopa jumping reverse.png')
 Para_Koopa_imgDH = pygame.image.load('Images/para-koopa jumping.png')
 Bowser_imgD = pygame.image.load('Images/bowser.png')
 Bowser_imgG = pygame.image.load('Images/bowser reverse.png')
+Bowser_imgGH = pygame.image.load('Images/bowser reverse jumping.png')
+Bowser_imgDH = pygame.image.load('Images/bowser jumping.png')
 Chomp_imgG = pygame.image.load('Images/chomp reverse.png')
 Chomp_imgD = pygame.image.load('Images/chomp.png')
 Chomp_imgGH = pygame.image.load('Images/chomp reverse jumping.png')
@@ -124,8 +126,8 @@ class Joueur:
             self.song_jump = Bowser_song_jump
             self.imgD = Bowser_imgD
             self.imgG = Bowser_imgG
-            self.imgDH = Bowser_imgD
-            self.imgGH = Bowser_imgG
+            self.imgDH = Bowser_imgDH
+            self.imgGH = Bowser_imgGH
             self.gravity = 0.5
         if self.choix == "Chomp":
             self.vie = 3
