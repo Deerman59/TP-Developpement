@@ -1,0 +1,12 @@
+Faire groupes (Moi Romain Kylian)
+Trouver thème : Jeux vidéo
+Trouver langage : HTML (un peu de javascript et un peu de css)
+-> Changement de programme : Python avec Pygame
+
+
+Petite présentation 
+
+Nous voulons mettre en lien nos 3 sites créés totalement en html, avec une présentation graphique en css et des animations en javascript.
+Nous avons quelques bases du html datant du lycée (en première).
+
+-> Utilisation de Python et de Pygame pour créer un jeu vidéo inspiré (pour pas dire copié) du jeu Mario mais avec un gameplay inversé
