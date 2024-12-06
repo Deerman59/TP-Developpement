@@ -133,7 +133,7 @@ class Joueur:
             self.vie = 3
             self.nom = "Chomp"
             self.taille = 120
-            self.speed = 15
+            self.speed = 13
             self.jump = 15
             self.song_jump = GoombaKoopaChomp
             self.imgD = Chomp_imgD
@@ -767,7 +767,7 @@ def Jouer():
         pygame.display.update()
 
         # Limiter le nombre de FPS (images par seconde)
-        pygame.time.Clock().tick(60)
+        pygame.time.Clock().tick(250)
         
         
 # Définir les dimensions de la fenêtre
