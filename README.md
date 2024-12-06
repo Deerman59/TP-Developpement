@@ -63,24 +63,24 @@ Pour jouer à **Rioma**, vous devez avoir installé :
 
 ## 🎮 Comment jouer
 
-Lancer le jeu : Accédez au menu principal et cliquez sur "Jouer".
-Choisir un personnage : Sélectionnez l'un des personnages jouable disponibles (Para-Koopa, Bowser, etc.).
-Explorer les niveaux : Sautez sur la tête des ennemis pour qu'ils perdent de la vie et ainsi atteindre votre objectif final : vaincre Rioma.
-Contrôles :
-  Déplacements : Q et D.
-  Sauter : Espace.
-  Volume : Appuyez sur M pour ouvrir le Menu Pause, puis rappuyez sur M pour ouvrir le Menu de réglage du volume.
-  Quitter : Pour quitter le jeu à tout moment, vous pouvez appuyer sur Echap puis O pour confirmer.
+- Lancer le jeu : Accédez au menu principal et cliquez sur "Jouer".
+- Choisir un personnage : Sélectionnez l'un des personnages jouable disponibles (Para-Koopa, Bowser, etc.).
+- Explorer les niveaux : Sautez sur la tête des ennemis pour qu'ils perdent de la vie et ainsi atteindre votre objectif final : vaincre Rioma.
+- Contrôles :
+  * Déplacements : Q et D.
+  * Sauter : Espace.
+  * Volume : Appuyez sur M pour ouvrir le Menu Pause, puis rappuyez sur M pour ouvrir le Menu de réglage du volume.
+  * Quitter : Pour quitter le jeu à tout moment, vous pouvez appuyer sur Echap puis O pour confirmer.
 
 ---
 
 ## 🤝 Contributeurs
 
-Ce projet a été conçu et développé par notre équipe de trois passionnés de jeux-vidéo :
+- Ce projet a été conçu et développé par notre équipe de trois passionnés de jeux-vidéo :
+  * Kylian Deffaut : Développement du gameplay et des personnages.
+  * Romain Debrue : Design des niveaux et gestion graphique.
+  * Elodie Decraie : Implémentation audio et gestion des menus.
 
-Kylian Deffaut : Développement du gameplay et des personnages.
-Romain Debrue : Design des niveaux et gestion graphique.
-Elodie Decraie : Implémentation audio et gestion des menus.
 
 ---
 
