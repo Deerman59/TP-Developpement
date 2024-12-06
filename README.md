@@ -76,10 +76,10 @@ Pour jouer à **Rioma**, vous devez avoir installé :
 
 ## 🤝 Contributeurs
 
-- Ce projet a été conçu et développé par notre équipe de trois passionnés de jeux-vidéo :
-  * Kylian Deffaut : Développement du gameplay et des personnages.
-  * Romain Debrue : Design des niveaux et gestion graphique.
-  * Elodie Decraie : Implémentation audio et gestion des menus.
+Ce projet a été conçu et développé par notre équipe de trois passionnés de jeux-vidéo :
+  - Kylian Deffaut : Développement du gameplay et des personnages.
+  - Romain Debrue : Design des niveaux et gestion graphique.
+  - Elodie Decraie : Implémentation audio et gestion des menus.
 
 
 ---
