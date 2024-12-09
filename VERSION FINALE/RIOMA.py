@@ -48,14 +48,14 @@ PVB4 = pygame.image.load('Images/barre de vie 2.png')
 PVB5 = pygame.image.load('Images/barre de vie 1.png')
 PVB6 = pygame.image.load('Images/barre de vie 0.png')
 
-# Couleurs (pour la plateforme et autres objets si nécessaire)
+# Couleurs
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)        
 
 # Police
 police = pygame.font.Font(None, 36)
 
-# Charger et jouer le son de fond
+# Chargement et paramétrages de certain(e)s sons/musiques et fonds
 pygame.mixer.music.load('Sons/musique menu.wav')
 Boss_song_jump = pygame.mixer.Sound(Boss_song_jump_S)
 Bowser_song_jump = pygame.mixer.Sound(Bowser_song_jump_S)
@@ -199,8 +199,6 @@ class Son:
 
 Boss = Boss()
 Toad = Toad()
-gestion_son = Son()
-
 
 # Fonction pour afficher le menu volume
 def afficher_menu_volume():
@@ -299,14 +297,14 @@ def afficher_menu_quitter():
 def afficher_menu_principal():
     menu_actif = True
     while menu_actif:
-        # Effacer l'écran et afficher l'arrière-plan du menu
+        # Afficher l'arrière-plan du menu
         window.blit(fond_menu, (0, 0))
 
-        # Charger et afficher l'image "RIOMA blanc.png"
+        # Charger et afficher le logo du jeu
         image_rioma = pygame.image.load("Images/RIOMA blanc.png")
         window.blit(image_rioma, (width // 2 - image_rioma.get_width() // 2, 100)) 
 
-        # Texte "Menu Principal" sous l'image, avec plus d'espace
+        # Texte "Menu Principal" sous l'image
         police_titre = pygame.font.Font(None, 80)
         titre = police_titre.render("Menu Principal", True, WHITE)
         window.blit(titre, (width // 2 - titre.get_width() // 2, image_rioma.get_height() + 150))
@@ -775,6 +773,7 @@ screen_info = pygame.display.Info()
 width, height = screen_info.current_w, screen_info.current_h
 window = pygame.display.set_mode((width, height))
 
+fond = pygame.transform.scale(fond, (width, height))
 fond_menu = pygame.transform.scale(fond_menu, (width, height))
 
 selected_player = afficher_menu_principal()
@@ -796,7 +795,6 @@ Joueur.imgG = pygame.transform.scale(Joueur.imgG, (Joueur.taille, Joueur.taille)
 Joueur.imgDH = pygame.transform.scale(Joueur.imgDH, (Joueur.taille, Joueur.taille))
 Joueur.imgGH = pygame.transform.scale(Joueur.imgGH, (Joueur.taille, Joueur.taille))
 Toad.img = pygame.transform.scale(Toad_img, (Toad.taille, Toad.taille))
-fond = pygame.transform.scale(fond, (width, height))
 PV0 = pygame.transform.scale(PV0, (250, 50))
 PV1 = pygame.transform.scale(PV1, (250, 50))
 PV2 = pygame.transform.scale(PV2, (250, 50))
